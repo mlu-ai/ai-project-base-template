@@ -1,20 +1,22 @@
 [tool.poetry]
-name = "ai-project-base-template"
+name = "my-project"
 version = "0.1.0"
-description = "AI Project Base Template"
+description = "My Project"
 authors = ["Mi Lu <75062245+mlu-ai@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.5.0"
+puff = "^0.6"
+black = "^24.4.2"
+pre-commit = "^3.7.1"
+isort = "^5.13.2"
 mypy = "^1.10.1"
 pytest = "^8.2.2"
-isort = "^5.13.2"
-black = "^24.4.2"
+pytest-cov = "^5.0.0"
 
 [build-system]
 requires = ["poetry-core"]
